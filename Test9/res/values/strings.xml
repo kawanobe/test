@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SplitCost</string>
+    <string name="action_settings">Settings</string>
+    <string name="money">金額</string>
+    <string name="yen">円</string>    
+    <string name="numPeople">人数：　</string>
+    <string name="splitNumber0">SP0</string>    
+    <string name="splitNumber1">SP1</string>    
+    <string name="splitNumber2">SP2</string>    
+    <string name="splitNumber3">SP3</string>    
+    <string name="splitNumber4">SP4</string>        
+    <string name="people">人</string>
+    <string name="calc">計算</string>
+    <string name="cancel">Cancel</string>
+    <string name="oneMoney">一人当たりの支払金額</string>
+    <string name="result">XXXXXXX</string>
+    <string name="name">名前　</string>
+    <string name="have">所持金</string>    
+    <string name="minus">−</string>
+    <string name="pay">支払金額</string>
+    <string name="equal">＝</string>
+    <string name="balance">残高</string>    
+    <string name="name0">Adam　</string>
+    <string name="name1">Bob　</string>
+    <string name="name2">Charlie　</string>
+    <string name="name3"></string>
+    <string name="name4"></string>    
+    <string name="have0">15000</string>    
+    <string name="have1">420</string>    
+    <string name="have2">2350</string>    
+    <string name="have3">0</string>    
+    <string name="have4">0</string>    
+    <string name="pay0">0</string>
+    <string name="pay1">0</string>
+    <string name="pay2">0</string>
+    <string name="pay3">0</string>
+    <string name="pay4">0</string>
+    <string name="balance0">0</string>
+    <string name="balance1">0</string>
+    <string name="balance2">0</string>
+    <string name="balance3">0</string>
+    <string name="balance4">0</string>
+    <string name="shortage">0</string>
+    <string name="shortageMoney">不足金額:</string>
+    <string name="splitNumber">###</string>    
+    <string name="space"></string>    
+    
+</resources>
+
+

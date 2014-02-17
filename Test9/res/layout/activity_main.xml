@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- 金額入力 -->
+    <LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/money"	/>
+        <EditText
+            android:id="@+id/txtMoney"
+            android:layout_width="0dp"        
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number"	/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/yen"	/>        
+    </LinearLayout>
+    
+    <!-- 人数表示 -->
+    <LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/numPeople"	/>
+        <TextView
+            android:id="@+id/txtSplitNumber0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/splitNumber0"	/>     
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/people"	/>        
+    </LinearLayout>
+    
+    <!-- 計算ボタン -->
+    <Button
+        android:id="@+id/btnCalc"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/calc" />
+    <!-- 初期化ボタン -->
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel" />
+    
+    <!-- 割り勘結果表示 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/oneMoney"
+        android:textSize="20sp" />
+    <LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txtResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:text="@string/result"	/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/yen"	/>        
+	</LinearLayout>
+ 
+    <!-- 名前・所持金・支払金額・残高 -->
+    <LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/have"	/>        
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:text="@string/minus"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/pay"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="@string/equal"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="@string/balance"
+            android:textSize="20sp" />
+  	</LinearLayout>
+   
+    <!-- Adam名前・所持金・支払金額・残高 -->
+    <LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+        <TextView
+            android:id="@+id/name0"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="@string/name0"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/txtHave0"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="@string/have0"
+            android:textSize="20sp" />       
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:text="@string/minus"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/txtPay0"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="@string/pay0"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="@string/equal"
+            android:textSize="20sp" />
+         <TextView
+            android:id="@+id/txtBalance0"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="@string/balance0"
+            android:textSize="20sp" />
+  	</LinearLayout>
+
+    <!-- Bob名前・所持金・支払金額・残高 -->
+    <LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="@string/name1"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/txtHave1"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="@string/have1"
+            android:textSize="20sp" />       
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:text="@string/minus"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/txtPay1"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="@string/pay1"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="@string/equal"
+            android:textSize="20sp" />
+         <TextView
+            android:id="@+id/txtBalance1"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="@string/balance1"
+            android:textSize="20sp" />
+  	</LinearLayout>
+
+    <!-- Charlie名前・所持金・支払金額・残高 -->
+    <LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="@string/name2"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/txtHave2"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="@string/have2"
+            android:textSize="20sp" />       
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:text="@string/minus"
+            android:textSize="20sp" />
+        <TextView
+			android:id="@+id/txtPay2"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="@string/pay2"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="@string/equal"
+            android:textSize="20sp" />
+         <TextView
+            android:id="@+id/txtBalance2"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="@string/balance2"
+            android:textSize="20sp" />
+  	</LinearLayout>
+    <!-- スペース -->
+   <LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+    	<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/space"	/>    
+  	</LinearLayout>	
+    <!-- 不足金額表示 -->
+    <LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/shortageMoney"
+            android:textSize="20sp" />
+    </LinearLayout>     
+    <LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txtShortageMoney0"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/shortage"
+            android:textSize="20sp" />  
+    	<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/yen"	/>    
+  	</LinearLayout>
+
+</LinearLayout>
